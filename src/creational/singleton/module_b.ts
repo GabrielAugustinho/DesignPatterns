@@ -8,4 +8,5 @@ myDatabaseClassic.add({name: 'André', age: 22});
 myDatabaseClassic.add({name: 'Gabriella', age: 24});
 myDatabaseClassic.add({name: 'Roberto', age: 40});
 myDatabaseClassic.remove(3);
-myDatabaseClassic.show();
+
+console.log(myDatabaseClassic === myDatabaseClassicFromModuleA);
